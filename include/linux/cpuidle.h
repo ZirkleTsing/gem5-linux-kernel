@@ -207,4 +207,5 @@ static inline int cpuidle_register_governor(struct cpuidle_governor *gov)
 #define CPUIDLE_DRIVER_STATE_START	0
 #endif
 
+extern void pdgem5_energy_ctrl_enter_c1(int);
 #endif /* _LINUX_CPUIDLE_H */
